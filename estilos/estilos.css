@@ -218,7 +218,7 @@ header{
     font-size: 16px;
     color: #000;
     padding: 5px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #proyectos .post ul li{
@@ -255,23 +255,24 @@ header{
 
 #lista_herramientas{
     background: darkgray;
-    width: 70%;
+    width: 40%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
     line-height: 20px;
-    display: flex; 
-    font-size: 14px;
-    font-family: verdana;
     border-radius: 10px;
 }
 
 #lista_herramientas ul li{
     list-style: none;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    text-align: center;
+}
+
+#lista_herramientas ul li .img-herramienta{
+    width: 20%;
+    height: 20%;
+    padding: 5px;
 }
 
 /*----Sección sobre mi*/
@@ -290,7 +291,6 @@ header{
 }
 
 #sobre_mi_div{
-    margin-top: 20px;
     background: darkgray;
     width: 70%;
     height: auto;
@@ -305,9 +305,10 @@ header{
 
 #sobre_mi_div p{
     margin-top: 10px;
-    width: 100%;
-    height: auto;
-    float: center;
+    width: 90%;
+    height: 86%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #sobre_mi_div p .primer_parrafo{
@@ -316,4 +317,42 @@ header{
 
 #sobre_mi_div p .ultimo_parrafo{
     margin-bottom: 50px;
+}
+
+/*------Sección contacto-------*/
+
+#encabezado_contacto{
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: darkblue
+}
+
+#contato_div{
+    background: darkgray;
+    width: 40%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: verdana;
+    border-radius: 10px;
+}
+
+#contacto_div ul li{
+    list-style: none;
+    text-align: center;
+}
+
+#contacto_div ul li .img-contacto{
+    width: 10%;
+    height: 10%;
+    padding: 5px;
 }
